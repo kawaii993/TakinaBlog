@@ -84,8 +84,8 @@ export const siteConfig: SiteConfig = {
 			title: "Takina's Blog !", // 主页横幅主标题
 
 			subtitle: [
-				"Never can we suspend the time",
-				"Having to leave the tracks behind",
+				"Never can we suspend the time,",
+				"Having to leave the tracks behind,",
 				"There is a longer way ahead, After all.",
 				"May you, the beauty of this world, always shine.",
 			],
@@ -413,7 +413,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 };
 
 export const sakuraConfig: SakuraConfig = {
-	enable: true, // 默认关闭樱花特效
+	enable: false, // 默认关闭樱花特效
 	sakuraNum: 21, // 樱花数量
 	limitTimes: -1, // 樱花越界限制次数，-1为无限循环
 	size: {
