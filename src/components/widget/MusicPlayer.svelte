@@ -52,8 +52,8 @@ let showError = false;
 
 // 当前歌曲信息
 let currentSong = {
-	title: "示例歌曲",
-	artist: "示例艺术家",
+	title: "请稍后",
+	artist: "网络加载中",
 	cover: "/favicon/favicon-light-192.png",
 	url: "",
 	duration: 0,
