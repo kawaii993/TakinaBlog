@@ -22,7 +22,7 @@ const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 
 export const siteConfig: SiteConfig = {
 	title: "Takina",
-	subtitle: "One demo website",
+	subtitle: "My blog website",
 
 	lang: SITE_LANG,
 
@@ -163,23 +163,23 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:link",
 			children: [
 				{
-					name: "GitHub",
-					url: "https://github.com/kawaii993",
-					external: true,
-					icon: "fa6-brands:github",
-				},
-				{
-					name: "Bilibili",
-					url: "https://space.bilibili.com/",
-					external: true,
-					icon: "fa6-brands:bilibili",
-				},
-				{
-					name: "Gitee",
-					url: "https://gitee.com/",
-					external: true,
-					icon: "mdi:git",
-				},
+			name: "MoonTV",
+			icon: "mdi:youtube",
+			url: "https://tv.takinablog.top/",
+			external: true,
+		},
+		{
+			name: "Philia",
+			icon: "mdi:notebook",
+			url: "https://philia.takinablog.top/",
+			external: true,
+		},
+		{
+			name: "GitHub",
+			icon: "fa6-brands:github",
+			url: "https://github.com/kawaii993",
+			external: true,
+		},
 			],
 		},
 		{
@@ -233,14 +233,14 @@ export const profileConfig: ProfileConfig = {
 	bio: "书里总爱写到喜出望外的傍晚",
 	links: [
 		{
-			name: "Bilibli",
-			icon: "fa6-brands:bilibili",
-			url: "https://space.bilibili.com/",
+			name: "MoonTV",
+			icon: "mdi:youtube",
+			url: "https://tv.takinablog.top/",
 		},
 		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/",
+			name: "Philia",
+			icon: "mdi:notebook",
+			url: "https://philia.takinablog.top/",
 		},
 		{
 			name: "GitHub",

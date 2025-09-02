@@ -3,7 +3,7 @@ title: Simple Guides for Takina
 published: 2024-04-01
 description: "How to use this blog template."
 image: "./cover.jpeg"
-tags: ["Takina", "Blogging", "Customization"]
+tags: ["Takina", "Blogging"]
 category: Guides
 draft: false
 ---
