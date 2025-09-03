@@ -24,203 +24,193 @@ export interface TimelineItem {
 }
 
 export const timelineData: TimelineItem[] = [
-	{
-		id: "current-study",
-		title: "计算机科学与技术专业在读",
-		description:
-			"目前正在学习计算机科学与技术专业，专注于Web开发和软件工程方向。",
-		type: "education",
-		startDate: "2022-09-01",
-		location: "北京",
-		organization: "北京理工大学",
-		skills: ["Java", "Python", "JavaScript", "HTML/CSS", "MySQL"],
-		achievements: [
-			"当前GPA: 3.6/4.0",
-			"完成了数据结构与算法课程设计",
-			"参与了多个课程项目开发",
-		],
-		icon: "material-symbols:school",
-		color: "#059669",
-		featured: true,
-	},
-	{
-		id: "mizuki-blog-project",
-		title: "Mizuki个人博客项目",
-		description:
-			"使用Astro框架开发的个人博客网站，作为学习前端技术的实践项目。",
-		type: "project",
-		startDate: "2024-06-01",
-		endDate: "2024-08-01",
-		skills: ["Astro", "TypeScript", "Tailwind CSS", "Git"],
-		achievements: [
-			"掌握了现代前端开发技术栈",
-			"学会了响应式设计和用户体验优化",
-			"完成了从设计到部署的完整流程",
-		],
-		links: [
-			{
-				name: "GitHub Repository",
-				url: "https://github.com/example/mizuki-blog",
-				type: "project",
-			},
-			{
-				name: "Live Demo",
-				url: "https://mizuki-demo.example.com",
-				type: "website",
-			},
-		],
-		icon: "material-symbols:code",
-		color: "#7C3AED",
-		featured: true,
-	},
-	{
-		id: "summer-internship-2024",
-		title: "前端开发实习生",
-		description: "暑期在一家互联网公司实习，参与Web应用的前端开发工作。",
-		type: "work",
-		startDate: "2024-07-01",
-		endDate: "2024-08-31",
-		location: "北京",
-		organization: "TechStart科技有限公司",
-		position: "Frontend Development Intern",
-		skills: ["React", "JavaScript", "CSS3", "Git", "Figma"],
-		achievements: [
-			"完成了用户界面组件的开发",
-			"学习了团队协作和代码规范",
-			"获得了实习优秀表现证明",
-		],
-		icon: "material-symbols:work",
-		color: "#DC2626",
-		featured: true,
-	},
-	{
-		id: "web-development-course",
-		title: "Web开发在线课程完成",
-		description: "完成了全栈Web开发的在线课程，系统学习了前后端开发技术。",
-		type: "achievement",
-		startDate: "2024-01-15",
-		endDate: "2024-05-30",
-		organization: "慕课网",
-		skills: ["HTML", "CSS", "JavaScript", "Node.js", "Express"],
-		achievements: [
-			"获得了课程完成证书",
-			"完成了5个实战项目",
-			"掌握了全栈开发基础",
-		],
-		links: [
-			{
-				name: "Course Certificate",
-				url: "https://certificates.example.com/web-dev",
-				type: "certificate",
-			},
-		],
-		icon: "material-symbols:verified",
-		color: "#059669",
-	},
-	{
-		id: "student-management-system",
-		title: "学生管理系统课程设计",
-		description: "数据库课程的期末项目，开发了一个完整的学生信息管理系统。",
-		type: "project",
-		startDate: "2023-11-01",
-		endDate: "2023-12-15",
-		skills: ["Java", "MySQL", "Swing", "JDBC"],
-		achievements: [
-			"获得了课程设计优秀成绩",
-			"实现了完整的CRUD功能",
-			"学会了数据库设计和优化",
-		],
-		icon: "material-symbols:database",
-		color: "#EA580C",
-	},
-	{
-		id: "programming-contest",
-		title: "校内程序设计竞赛",
-		description: "参加了学校举办的程序设计竞赛，提升了算法和编程能力。",
-		type: "achievement",
-		startDate: "2023-10-20",
-		location: "北京理工大学",
-		organization: "计算机学院",
-		skills: ["C++", "算法", "数据结构"],
-		achievements: [
-			"获得了校内竞赛三等奖",
-			"提升了算法思维能力",
-			"加强了编程基础技能",
-		],
-		icon: "material-symbols:emoji-events",
-		color: "#7C3AED",
-	},
-	{
-		id: "part-time-tutor",
-		title: "编程家教兼职",
-		description: "为高中生提供编程入门辅导，帮助他们学习Python基础。",
-		type: "work",
-		startDate: "2023-09-01",
-		endDate: "2024-01-31",
-		position: "编程辅导老师",
-		skills: ["Python", "教学", "沟通"],
-		achievements: [
-			"帮助3名学生掌握了Python基础",
-			"提升了表达和沟通能力",
-			"获得了教学经验",
-		],
-		icon: "material-symbols:school",
-		color: "#059669",
-	},
-	{
-		id: "high-school-graduation",
-		title: "高中毕业",
-		description: "以优异成绩从高中毕业，考入北京理工大学计算机科学与技术专业。",
-		type: "education",
-		startDate: "2019-09-01",
-		endDate: "2022-06-30",
-		location: "山东济南",
-		organization: "济南市第一中学",
-		achievements: [
-			"高考成绩620分",
-			"获得了市级三好学生称号",
-			"在数学竞赛中获得省级二等奖",
-		],
-		icon: "material-symbols:school",
-		color: "#2563EB",
-	},
-	{
-		id: "first-programming-experience",
-		title: "初次接触编程",
-		description: "在高中信息技术课上第一次接触编程，开始学习Python基础语法。",
-		type: "education",
-		startDate: "2021-03-01",
-		skills: ["Python", "基础编程概念"],
-		achievements: [
-			'完成了第一个"Hello World"程序',
-			"学会了基本的循环和条件语句",
-			"培养了对编程的兴趣",
-		],
-		icon: "material-symbols:code",
-		color: "#7C3AED",
-	},
-	{
-		id: "english-certificate",
-		title: "英语四级证书",
-		description: "通过了大学英语四级考试，具备了基本的英语读写能力。",
-		type: "achievement",
-		startDate: "2023-06-15",
-		organization: "全国大学英语四、六级考试委员会",
-		achievements: [
-			"四级成绩：550分",
-			"提升了英语技术文档阅读能力",
-			"为后续学习国外技术资料打下基础",
-		],
-		links: [
-			{
-				name: "CET-4 Certificate",
-				url: "https://certificates.example.com/cet4",
-				type: "certificate",
-			},
-		],
-		icon: "material-symbols:translate",
-		color: "#059669",
-	},
+  // Arpg 游戏
+  {
+    id: "honkai-star-rail",
+    title: "崩坏-星穹铁道",
+    description: "长期玩家，完成主线剧情、支线任务及所有挑战副本。",
+    type: "project",
+    startDate: "2023-04-01",
+    location: "翁法洛斯",
+    skills: ["高难度副本挑战", "角色养成", "活动参与"],
+    achievements: [
+      "全角色满级培养",
+      "完成所有周常活动",
+      "累计达成100%主线与支线完成度"
+    ],
+    icon: "mdi-railroad",
+    color: "#FF6B6B",
+    featured: true,
+  },
+  {
+    id: "honkai-3",
+    title: "崩坏三",
+    description: "资深玩家，参与各种活动并完成主要剧情挑战。",
+    type: "project",
+    startDate: "2021-01-01",
+    location: "线上",
+    skills: ["角色养成", "活动参与", "副本挑战"],
+    achievements: [
+      "累计获得全角色满级",
+      "完成每日/周常活动",
+      "参与所有限时活动"
+    ],
+    icon: "mdi-sword-cross",
+    color: "#F59E0B",
+    featured: true,
+  },
+  {
+    id: "genshin-impact",
+    title: "原神",
+    description: "长期玩家，探索全地图、完成任务与挑战副本。",
+    type: "project",
+    startDate: "2020-10-01",
+    location: "提瓦特大陆",
+    skills: ["探索解谜", "角色养成", "活动参与"],
+    achievements: [
+      "解锁全角色与武器",
+      "完成所有秘境挑战",
+      "累计活动奖励达成100%"
+    ],
+    icon: "mdi-star",
+    color: "#3B82F6",
+    featured: true,
+  },
+  {
+    id: "mingchao",
+    title: "鸣潮",
+    description: "资深玩家，完成主要剧情和每日活动。",
+    type: "project",
+    startDate: "2023-03-01",
+    location: "线上",
+    skills: ["剧情挑战", "角色培养", "活动参与"],
+    achievements: [
+      "完成主线与支线剧情",
+      "解锁全角色成长成就",
+      "活跃参与活动收集奖励"
+    ],
+    icon: "mdi-water",
+    color: "#0EA5E9",
+    featured: false,
+  },
+
+  // MMO 游戏
+  {
+    id: "yimeng-jianghu",
+    title: "一梦江湖",
+    description: "资深玩家，完成主线、支线剧情及所有活动副本。",
+    type: "work",
+    startDate: "2022-07-01",
+    endDate: "2023-03-31",
+    location: "中国",
+    organization: "玩家社区",
+    position: "活跃玩家",
+    skills: ["副本挑战", "社群互动", "活动参与"],
+    achievements: [
+      "完成所有节日活动奖励",
+      "累计达成全服排行榜前50%",
+      "活跃参与社区讨论"
+    ],
+    icon: "mdi-gamepad-variant",
+    color: "#059669",
+    featured: true,
+  },
+  {
+    id: "yanyun-shiliusheng",
+    title: "燕云十六声",
+    description: "长期玩家，参与剧情和各类活动副本。",
+    type: "work",
+    startDate: "2021-06-01",
+    endDate: "2022-06-30",
+    location: "中国",
+    organization: "玩家社区",
+    position: "活跃玩家",
+    skills: ["副本挑战", "社群互动", "活动参与"],
+    achievements: [
+      "完成所有剧情任务",
+      "参与社区竞技活动",
+      "累计达成全服活动奖励"
+    ],
+    icon: "mdi-gamepad-variant",
+    color: "#FBBF24",
+    featured: true,
+  },
+  {
+    id: "nishuihan",
+    title: "逆水寒",
+    description: "长期玩家，参与各类PVE、PVP活动及社群互动。",
+    type: "work",
+    startDate: "2021-05-01",
+    endDate: "2022-06-30",
+    location: "中国",
+    organization: "玩家社区",
+    position: "活跃玩家",
+    skills: ["竞技对战", "剧情探索", "社群参与"],
+    achievements: [
+      "完成全PVE副本及挑战任务",
+      "PVP竞技段位提升至高段",
+      "参与社区组织的活动和赛事"
+    ],
+    icon: "mdi-sword-cross",
+    color: "#F59E0B",
+    featured: true,
+  },
+
+  // FPS 游戏
+  {
+    id: "apex-legends",
+    title: "Apex",
+    description: "长期玩家，累计参与竞技比赛与社区活动，积累丰富战斗经验。",
+    type: "project",
+    startDate: "2020-01-01",
+    endDate: "2021-04-30",
+    location: "线上",
+    skills: ["团队协作", "竞技操作", "赛事参与"],
+    achievements: [
+      "累计胜场超过200场",
+      "参与社区线上赛事",
+      "解锁全部角色与装备成就"
+    ],
+    icon: "mdi-crosshairs",
+    color: "#3B82F6",
+    featured: false,
+  },
+  {
+    id: "delta-force",
+    title: "三角洲",
+    description: "资深玩家，参与多人竞技和战术任务。",
+    type: "project",
+    startDate: "2019-03-01",
+    endDate: "2020-12-31",
+    location: "线上",
+    skills: ["战术竞技", "团队协作", "任务完成"],
+    achievements: [
+      "完成所有战役任务",
+      "在多人竞技中获得前10%",
+      "参与线上社区赛事"
+    ],
+    icon: "mdi-crosshairs",
+    color: "#EF4444",
+    featured: false,
+  },
+  {
+    id: "fortnite",
+    title: "堡垒之夜",
+    description: "长期玩家，参与竞技比赛与创意建造活动。",
+    type: "project",
+    startDate: "2018-06-01",
+    endDate: "2019-06-30",
+    location: "线上",
+    skills: ["竞技操作", "团队协作", "创意建造"],
+    achievements: [
+      "累计胜场超过150场",
+      "完成创意建筑挑战",
+      "参与社区活动和赛事"
+    ],
+    icon: "mdi-gamepad-variant",
+    color: "#6366F1",
+    featured: false,
+  }
 ];
 
 // 获取时间线统计信息
@@ -286,3 +276,8 @@ export const getTotalWorkExperience = () => {
 		months: totalMonths % 12,
 	};
 };
+
+
+
+
+

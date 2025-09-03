@@ -180,6 +180,7 @@ export const navBarConfig: NavBarConfig = {
 			url: "https://github.com/kawaii993",
 			external: true,
 		},
+		
 			],
 		},
 		{
@@ -207,21 +208,28 @@ export const navBarConfig: NavBarConfig = {
 			url: "#",
 			icon: "material-symbols:more-horiz",
 			children: [
-				// {
-				// 	name: "项目展示",
-				// 	url: "/projects/",
-				// 	icon: "material-symbols:work",
-				// },
+				{
+					name: "项目展示",
+					url: "/projects/",
+					icon: "material-symbols:work",
+				},
 				{
 					name: "技能展示",
 					url: "/skills/",
 					icon: "material-symbols:psychology",
 				},
+				//TODO: 游戏经验
 				// {
-				// 	name: "时间线",
+				// 	name: "游戏经历",
 				// 	url: "/timeline/",
 				// 	icon: "material-symbols:timeline",
 				// },
+				{
+				name: "站点状态",
+				icon: "fa6-brands:android",
+				url: "https://status.takinablog.top",
+				external: true,
+		},
 			],
 		},
 	],

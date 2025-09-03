@@ -19,70 +19,72 @@ export interface Project {
 
 export const projectsData: Project[] = [
 	{
-		id: 'mizuki-blog',
-		title: 'Mizuki Blog Theme',
+		id: 'takina-blog',
+		title: 'Takina Blog Theme',
 		description: '基于Astro框架开发的现代化博客主题，支持多语言、暗黑模式、响应式设计等功能。',
 		image: '',
 		category: 'web',
 		techStack: ['Astro', 'TypeScript', 'Tailwind CSS', 'Svelte'],
 		status: 'completed',
-		liveDemo: 'https://blog.example.com',
-		sourceCode: 'https://github.com/example/mizuki',
+		liveDemo: 'https://home.takinablog.top',
+		sourceCode: 'https://github.com/kawaii993/TakinaBlog',
 		startDate: '2024-01-01',
 		endDate: '2024-06-01',
 		featured: true,
 		tags: ['Blog', 'Theme', 'Open Source']
 	},
 	{
-		id: 'portfolio-website',
-		title: 'Personal Portfolio',
-		description: '个人作品集网站，展示项目经验和技术技能。',
+		id: 'philia093-website',
+		title: 'Personal Portfolio Philia093',
+		description: '个人文字网站，展示项目经验和技术技能，整合提取主站博客内容。',
 		image: '',
 		category: 'web',
 		techStack: ['React', 'Next.js', 'TypeScript', 'Framer Motion'],
 		status: 'completed',
-		liveDemo: 'https://portfolio.example.com',
-		sourceCode: 'https://github.com/example/portfolio',
-		startDate: '2023-09-01',
-		endDate: '2023-12-01',
+		liveDemo: 'https://philia.takinablog.top',
+		sourceCode: 'https://github.com/kawaii993/Takina-PhiLia093',
+		startDate: '2025-07-01',
+		endDate: '2025-08-01',
 		featured: true,
-		tags: ['Portfolio', 'React', 'Animation']
+		tags: ['Portfolio', 'React', 'Blog']
 	},
 	{
-		id: 'task-manager-app',
-		title: 'Task Manager App',
-		description: '跨平台任务管理应用，支持团队协作和项目管理。',
+		id: 'MoonTV',
+		title: 'Video website MoonTV',
+		description: '多端同步视频集合播放平台。',
 		image: '',
 		category: 'mobile',
 		techStack: ['React Native', 'TypeScript', 'Redux', 'Firebase'],
-		status: 'in-progress',
-		startDate: '2024-03-01',
-		tags: ['Mobile', 'Productivity', 'Team Collaboration']
+		status: 'completed',
+		liveDemo: 'https://tv.takinablog.top/',
+		startDate: '2024-12-01',
+		tags: ['Mobile', 'Video']
 	},
 	{
-		id: 'data-visualization-tool',
-		title: 'Data Visualization Tool',
-		description: '数据可视化工具，支持多种图表类型和交互式分析。',
+		id: 'site-status',
+		title: 'Visualization Tool site-status',
+		description: '网站状态可视化网站，监测Takina旗下运行中的大部分网站。',
 		image: '',
 		category: 'web',
 		techStack: ['Vue.js', 'D3.js', 'TypeScript', 'Node.js'],
 		status: 'completed',
-		liveDemo: 'https://dataviz.example.com',
+		liveDemo: 'https://status.takinablog.top/',
 		startDate: '2023-06-01',
 		endDate: '2023-11-01',
 		tags: ['Data Visualization', 'Analytics', 'Charts']
 	},
 	{
-		id: 'e-commerce-platform',
-		title: 'E-commerce Platform',
-		description: '全栈电商平台，包含用户管理、商品管理、订单处理等功能。',
+		id: 'game-community-dashboard',
+		title: 'Game Community Dashboard',
+		description: '一款面向游戏运营的社区管理与数据分析工具，支持玩家活跃度追踪、活动数据统计、反馈收集与舆情监控。',
 		image: '',
 		category: 'web',
-		techStack: ['Next.js', 'Node.js', 'PostgreSQL', 'Stripe'],
-		status: 'planned',
-		startDate: '2024-07-01',
-		tags: ['E-commerce', 'Full Stack', 'Payment Integration']
+		techStack: ['Next.js', 'Node.js', 'PostgreSQL', 'Chart.js'],
+		status: 'in-progress',
+		startDate: '2025-08-21',
+		tags: ['GameOps', 'Community', 'Analytics', 'Player Engagement']
 	}
+
 ];
 
 // 获取项目统计信息

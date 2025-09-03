@@ -128,26 +128,28 @@ const getCategoryText = (category: string) => {
                     )}
                   </div>
                   <div class="flex gap-3">
-                    {project.demoUrl && (
-                      <a 
-                        href={project.demoUrl} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        class="text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium"
-                      >
-                        {i18n(I18nKey.projectsDemo)}
-                      </a>
-                    )}
-                    {project.sourceUrl && (
-                      <a 
-                        href={project.sourceUrl} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        class="text-gray-600 dark:text-gray-400 hover:underline text-sm font-medium"
-                      >
-                        {i18n(I18nKey.projectsSource)}
-                      </a>
-                    )}
+                    {project.liveDemo && (
+                        <a 
+                          href={project.liveDemo} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          class="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium hover:bg-blue-700 transition"
+                        >
+                          🌐 点击预览
+                        </a>
+                      )}
+
+                    {project.sourceCode && (
+                        <a 
+                          href={project.sourceCode} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          class="px-4 py-2 bg-gray-600 text-white rounded-md text-sm font-medium hover:bg-gray-700 transition"
+                        >
+                          🐱 GitHub源码
+                        </a>
+                      )}
+
                   </div>
                 </div>
               </div>
