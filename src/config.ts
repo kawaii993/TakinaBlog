@@ -45,20 +45,29 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
-				"/assets/desktop-banner/2.webp",
-				"/assets/desktop-banner/3.webp",
-				"/assets/desktop-banner/4.webp",
-				"/assets/desktop-banner/5.webp",
-				"/assets/desktop-banner/6.webp",
+				"/assets/desktop-banner/bg2.png",
+				"/assets/desktop-banner/bg1.png",
+				"/assets/desktop-banner/bg5.png",
+				"/assets/desktop-banner/bg4.png",
+				"/assets/desktop-banner/bg3.png",
+				// "/assets/desktop-banner/bg6.png",
+				"/assets/desktop-banner/bg7.png",
+				"/assets/desktop-banner/bg8.png",
+				// "/assets/desktop-banner/bg9.png",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/1.webp",
-				"/assets/mobile-banner/2.webp",
-				"/assets/mobile-banner/3.webp",
-				"/assets/mobile-banner/4.webp",
-				"/assets/mobile-banner/5.webp",
-				"/assets/mobile-banner/6.webp",
+				"/assets/mobile-banner/mbbg1.png",
+				"/assets/mobile-banner/mbbg11.png",
+				"/assets/mobile-banner/mbbg6.png",
+				"/assets/mobile-banner/mbbg4.png",
+				"/assets/mobile-banner/mbbg5.png",
+				"/assets/mobile-banner/mbbg3.png",
+				// "/assets/mobile-banner/mbbg7.png",
+				"/assets/mobile-banner/mbbg8.png",
+				"/assets/mobile-banner/mbbg9.png",
+				"/assets/mobile-banner/mbbg10.png",
+				"/assets/mobile-banner/mbbg2.png",
+				
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -67,7 +76,7 @@ export const siteConfig: SiteConfig = {
 		carousel: {
 			enable: true, // 为 true 时：为多张图片启用轮播。为 false 时：从数组中随机显示一张图片
 
-			interval: 2.5, // 轮播间隔时间（秒）
+			interval: 3.0, // 轮播间隔时间（秒）
 		},
 
 		// PicFlow API支持(智能图片API)
