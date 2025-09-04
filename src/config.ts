@@ -50,10 +50,8 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/bg5.png",
 				"/assets/desktop-banner/bg4.png",
 				"/assets/desktop-banner/bg3.png",
-				// "/assets/desktop-banner/bg6.png",
-				"/assets/desktop-banner/bg7.png",
-				"/assets/desktop-banner/bg8.png",
-				// "/assets/desktop-banner/bg9.png",
+				"/assets/desktop-banner/2.webp",
+				"/assets/desktop-banner/5.webp",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/mbbg1.png",
