@@ -50,7 +50,6 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/bg5.png",
 				"/assets/desktop-banner/bg4.png",
 				"/assets/desktop-banner/bg3.png",
-				"/assets/desktop-banner/2.webp",
 				"/assets/desktop-banner/5.webp",
 			], // 桌面横幅图片
 			mobile: [
@@ -60,11 +59,10 @@ export const siteConfig: SiteConfig = {
 				"/assets/mobile-banner/mbbg4.png",
 				"/assets/mobile-banner/mbbg5.png",
 				"/assets/mobile-banner/mbbg3.png",
-				// "/assets/mobile-banner/mbbg7.png",
 				"/assets/mobile-banner/mbbg8.png",
 				"/assets/mobile-banner/mbbg9.png",
 				"/assets/mobile-banner/mbbg10.png",
-				"/assets/mobile-banner/mbbg2.png",
+				"/assets/mobile-banner/1.webp",
 				
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
